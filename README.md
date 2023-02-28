@@ -1,1 +1,1 @@
-# online_clothing_store
+# online_clothing_store - web_project
