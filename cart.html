@@ -11,156 +11,191 @@
 </head>
 
 <body>
-    <div class="top__cart">
-        <div class="header">
-            <div class="container">
-                <div class="header__icons">
-                    <div class="header__left">
-                        <a href="index.html"><img src="image/image_index/logo.svg" alt="logo" class="logo"></a>
-                        <img src="image/image_index/search.svg" alt="search" class="search">
+    <div class="box_content">
+        <div class="top__cart">
+            <div class="header">
+                <div class="container">
+                    <div class="header__icons">
+                        <div class="header__left">
+                            <a href="index.html"><img src="image/image_index/logo.svg" alt="logo" class="logo"></a>
+                            <img src="image/image_index/search.svg" alt="search" class="search">
+                        </div>
+                        <div class="header__right">
+                            <input type="checkbox" id="menu_bar">
+                            <nav class="top_menu">
+                                <a href="#" class="top_menu_close">
+                                    <img src="image/image_index/menu-close.svg" alt="close"></a>
+                                <a href="#" class="top_menu_categories"> MENU</a>
+                                <details class="top_menu_block">
+                                    <summary class="top_menu_categories">MAN </summary>
+                                    <a href="catalog.html">Accessories</a>
+                                    <a href="catalog.html">Bags</a>
+                                    <a href="catalog.html">Denim</a>
+                                    <a href="catalog.html">T-Shirts</a>
+                                </details>
+                                <details class="top_menu_block">
+                                    <summary class="top_menu_categories">WOMAN </summary>
+                                    <a href="catalog.html">Accessories</a>
+                                    <a href="catalog.html">Jackets & Coats</a>
+                                    <a href="catalog.html">Polos</a>
+                                    <a href="catalog.html">T-Shirts</a>
+                                    <a href="catalog.html">Shirts</a>
+                                </details>
+                                <details class="top_menu_block">
+                                    <summary class="top_menu_categories">KIDS </summary>
+                                    <a href="catalog.html">Accessories</a>
+                                    <a href="catalog.html">Jackets & Coats</a>
+                                    <a href="catalog.html">Polos</a>
+                                    <a href="catalog.html">T-Shirts</a>
+                                    <a href="catalog.html">Shirts</a>
+                                    <a href="catalog.html">Bags</a>
+                                </details>
+                            </nav>
+                            <label for="menu_bar">
+                                <img src="image/image_index/bar.svg" alt="bar" class="bar">
+                            </label>
+                            <a href="registration.html"><img src="image/image_index/user.svg" alt="user"
+                                    class="user"></a>
+                            <div class="count_cart">
+                                <a href="#"><img src="image/image_index/cart.svg" alt="cart" class="cart"></a>
+                                <span>2</span>
+                            </div>
+                        </div>
                     </div>
-                    <div class="header__right">
-                        <img src="image/image_index/bar.svg" alt="bar" class="bar">
-                        <img src="image/image_index/user.svg" alt="user" class="user">
-                        <a href="cart.html"><img src="image/image_index/cart.svg" alt="cart" class="cart"></a>
-                        <span>2</span>
-                    </div>
+                </div>
+            </div>
+
+            <div class="top__cart-back">
+                <div class="container">
+                    <p>SHOPPING CART</p>
                 </div>
             </div>
         </div>
 
-        <div class="top__cart-back">
-            <div class="container">
-                <p>SHOPPING CART</p>
+        <div class="cart__main  container">
+            <div class="shopping__cart">
+                <div class="shopping__cart-product">
+                    <img src="image/image_index/card1.jpg" class="product_photo" alt="photo">
+                    <div class="product_describtion">
+                        <h2 class="product_heading">MANGO PEOPLE T-SHIRT</h2>
+                        <ul>
+                            <li>Price: <span>$300</span> </li>
+                            <li>Color: Red</li>
+                            <li>Size: Xl </li>
+                            <li>Quantity: <span>2</span></li>
+                        </ul>
+                    </div>
+                    <img src="image/image_index/menu-close.svg" alt="close">
+                </div>
+                <div class="shopping__cart-product">
+                    <img src="image/image_index/card2.jpg" class="product_photo" alt="photo">
+                    <div class="product_describtion">
+                        <h2 class="product_heading">MANGO PEOPLE T-SHIRT</h2>
+                        <ul>
+                            <li>Price: <span>$300</span> </li>
+                            <li>Color: Red</li>
+                            <li>Size: Xl </li>
+                            <li>Quantity: <span>2</span></li>
+                        </ul>
+                    </div>
+                    <img src="image/image_index/menu-close.svg" alt="close">
+                </div>
+                <div class="shopping__cart-buttons">
+                    <button class="shopping__cart_btn">
+                        Clear shopping cart
+                    </button>
+                    <button class="shopping__cart_btn">
+                        Continue shopping
+                    </button>
+                </div>
+            </div>
+
+            <div class="cart__right-part">
+                <form class="shopping__address">
+                    <h2>SHOPPING ADRESS</h2>
+                    <input type="text" placeholder="Bangladesh">
+                    <input type="text" placeholder="State">
+                    <input type="text" placeholder="Postcode/Zip">
+                    <button>Get a quote</button>
+                </form>
+
+                <div class="shopping__total">
+                    <p>SUB TOTAL <span>$900</span></p>
+                    <p>GRAND TOTAL <span>$900</span></p>
+                    <div class="total-divider-grey"></div>
+                    <button>PROCEED TO CHECKOUT</button>
+
+                </div>
             </div>
         </div>
+
+        <footer>
+            <div class="footer__top footer__top-none">
+                <div class="advantages container">
+                    <div class="advantage">
+                        <img src="image/image_index/advantage-icon1.svg" alt="advantage-icon1" class="advantage-icon">
+                        <div class="advantage-heading">
+                            Free Delivery
+                        </div>
+                        <div class="advantage-text text">
+                            Worldwide delivery on all. Authorit tively morph next-generation innov tion with extensive
+                            models.
+                        </div>
+                    </div>
+                    <div class="advantage">
+                        <img src="image/image_index/advantage-icon2.svg" alt="advantage-icon2" class="advantage-icon">
+                        <div class="advantage-heading">
+                            Sales & discounts
+                        </div>
+                        <div class="advantage-text text">
+                            Worldwide delivery on all. Authorit tively morph next-generation innov tion with extensive
+                            models.
+                        </div>
+                    </div>
+                    <div class="advantage">
+                        <img src="image/image_index/advantage-icon3.svg" alt="advantage-icon3" class="advantage-icon">
+                        <div class="advantage-heading">
+                            Quality assurance
+                        </div>
+                        <div class="advantage-text text">
+                            Worldwide delivery on all. Authorit tively morph next-generation innov tion with extensive
+                            models.
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer_back_img">
+                <div class="footer__bottom container">
+                    <div class="footer__bottom-left">
+                        <img src="image/image_index/footer_face.jpg" alt="face" class="footer-face">
+                        <p class="footer-text">
+                            “Vestibulum quis porttitor dui! Quisque viverra nunc mi, <span>a pulvinar purus
+                                condimentum</span>“
+                        </p>
+                    </div>
+                    <div class="subscribe">
+                        <p class="subscribe-title">subscribe </p>
+                        <p class="subscribe-text"> for our newletter and promotion</p>
+                        <form class="subscribe-form">
+                            <input type="email" placeholder="Enter Your Email" class="subscribe-input">
+                            <input type="submit" value="Subscribe" class="subscribe-button">
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="footer__rights">
+                <div class="container">
+                    <div class="contacts">
+                        <img src="image/image_index/footer_contacts3.svg" alt="social_network" class="soc_network">
+                        <img src="image/image_index/footer_contacts4.svg" alt="social_network" class="soc_network">
+                    </div>
+                    <div class="rights">
+                        &copy; 2021 Brand All Rights Reserved.
+                    </div>
+                </div>
+            </div>
+        </footer>
     </div>
-
-    <div class="cart__main  container">
-        <div class="shopping__cart">
-            <div class="shopping__cart-product">
-                <img src="image/image_index/card1.jpg" class="product_photo" alt="photo">
-                <div class="product_describtion">
-                    <h2 class="product_heading">MANGO PEOPLE T-SHIRT</h2>
-                    <ul>
-                        <li>Price: <span>$300</span> </li>
-                        <li>Color: Red</li>
-                        <li>Size: Xl </li>
-                        <li>Quantity: <span>2</span></li>
-                    </ul>
-                </div>
-                <img src="image/image_index/menu-close.svg" alt="close">
-            </div>
-            <div class="shopping__cart-product">
-                <img src="image/image_index/card2.jpg" class="product_photo" alt="photo">
-                <div class="product_describtion">
-                    <h2 class="product_heading">MANGO PEOPLE T-SHIRT</h2>
-                    <ul>
-                        <li>Price: <span>$300</span> </li>
-                        <li>Color: Red</li>
-                        <li>Size: Xl </li>
-                        <li>Quantity: <span>2</span></li>
-                    </ul>
-                </div>
-                <img src="image/image_index/menu-close.svg" alt="close">
-            </div>
-            <div class="shopping__cart-buttons">
-                <button class="shopping__cart_btn">
-                    Clear shopping cart
-                </button>
-                <button class="shopping__cart_btn">
-                    Continue shopping
-                </button>
-            </div>
-        </div>
-
-        <div class="cart__right-part">
-            <form class="shopping__address">
-                <h2>SHOPPING ADRESS</h2>
-                <input type="text" placeholder="Bangladesh">
-                <input type="text" placeholder="State">
-                <input type="text" placeholder="Postcode/Zip">
-                <button>Get a quote</button>
-            </form>
-
-            <div class="shopping__total">
-                <p>SUB TOTAL <span>$900</span></p>
-                <p>GRAND TOTAL <span>$900</span></p>
-                <div class="total-divider-grey"></div>
-                <button>PROCEED TO CHECKOUT</button>
-
-            </div>
-        </div>
-    </div>
-
-    <footer>
-        <div class="footer__top footer__top-none">
-            <div class="advantages container">
-                <div class="advantage">
-                    <img src="image/image_index/advantage-icon1.svg" alt="advantage-icon1" class="advantage-icon">
-                    <div class="advantage-heading">
-                        Free Delivery
-                    </div>
-                    <div class="advantage-text text">
-                        Worldwide delivery on all. Authorit tively morph next-generation innov tion with extensive
-                        models.
-                    </div>
-                </div>
-                <div class="advantage">
-                    <img src="image/image_index/advantage-icon2.svg" alt="advantage-icon2" class="advantage-icon">
-                    <div class="advantage-heading">
-                        Sales & discounts
-                    </div>
-                    <div class="advantage-text text">
-                        Worldwide delivery on all. Authorit tively morph next-generation innov tion with extensive
-                        models.
-                    </div>
-                </div>
-                <div class="advantage">
-                    <img src="image/image_index/advantage-icon3.svg" alt="advantage-icon3" class="advantage-icon">
-                    <div class="advantage-heading">
-                        Quality assurance
-                    </div>
-                    <div class="advantage-text text">
-                        Worldwide delivery on all. Authorit tively morph next-generation innov tion with extensive
-                        models.
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="footer_back_img">
-            <div class="footer__bottom container">
-                <div class="footer__bottom-left">
-                    <img src="image/image_index/footer_face.jpg" alt="face" class="footer-face">
-                    <p class="footer-text">
-                        “Vestibulum quis porttitor dui! Quisque viverra nunc mi, <span>a pulvinar purus
-                            condimentum</span>“
-                    </p>
-                </div>
-                <div class="subscribe">
-                    <p class="subscribe-title">subscribe </p>
-                    <p class="subscribe-text"> for our newletter and promotion</p>
-                    <form class="subscribe-form">
-                        <input type="email" placeholder="Enter Your Email" class="subscribe-input">
-                        <input type="submit" value="Subscribe" class="subscribe-button">
-                    </form>
-                </div>
-            </div>
-        </div>
-        <div class="footer__rights">
-            <div class="container">
-                <div class="contacts">
-                    <img src="image/image_index/footer_contacts1.svg" alt="social_network" class="soc_network">
-                    <img src="image/image_index/footer_contacts2.svg" alt="social_network" class="soc_network">
-                    <img src="image/image_index/footer_contacts3.svg" alt="social_network" class="soc_network">
-                    <img src="image/image_index/footer_contacts4.svg" alt="social_network" class="soc_network">
-                </div>
-                <div class="rights">
-                    &copy; 2021 Brand All Rights Reserved.
-                </div>
-            </div>
-        </div>
-    </footer>
 </body>
 
 </html>
