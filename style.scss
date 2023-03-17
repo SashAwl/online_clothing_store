@@ -796,6 +796,11 @@ body {
     &-text a:last-child {
         color: #F16D7F;
     }
+
+    .top_nav+.top_nav::before {
+        content: "/";
+        padding: 0 4px;
+    }
 }
 
 .filter__catalog {

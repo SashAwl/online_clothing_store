@@ -837,6 +837,11 @@ body {
   color: #F16D7F;
 }
 
+.top__catalog .top_nav + .top_nav::before {
+  content: "/";
+  padding: 0 4px;
+}
+
 .filter__catalog {
   display: -webkit-box;
   display: -ms-flexbox;
