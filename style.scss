@@ -347,6 +347,7 @@ body {
             background: rgba(58, 56, 56, 0.01);
             margin: 50% auto;
             cursor: pointer;
+            transition-property: transform;
 
         }
 
@@ -809,6 +810,11 @@ body {
     margin-top: 24px;
     position: relative;
 
+    &>div:first-child {
+        height: 17px;
+        width: 90px;
+    }
+
     .filter_left {
         text-transform: uppercase;
         font-weight: 600;
@@ -826,7 +832,7 @@ body {
     }
 
     .filter_navigation[open] {
-        width: 360px;
+        width: 220px;
         min-height: 331px;
         background: #FFFFFF;
         box-shadow: 6px 4px 35px rgba(0, 0, 0, 0.21);
@@ -886,12 +892,6 @@ body {
         padding-right: 11px;
     }
 
-    .param_filter {
-        position: absolute;
-        top: 0;
-        right: 16px;
-    }
-
     .filter_right {
         font-size: 12px;
         line-height: 14px;
@@ -930,7 +930,7 @@ body {
     .check_size[open] {
         width: 89px;
         top: -7px;
-        right: 5px;
+        right: 49px;
     }
 
     .check_price[open] {
@@ -1025,6 +1025,7 @@ body {
         .filter_navigation[open] {
             font-size: 14px;
             line-height: 17px;
+            width: 360px;
         }
 
         .filter_right {

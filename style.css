@@ -394,6 +394,10 @@ body {
   background: rgba(58, 56, 56, 0.01);
   margin: 50% auto;
   cursor: pointer;
+  -webkit-transition-property: -webkit-transform;
+  transition-property: -webkit-transform;
+  transition-property: transform;
+  transition-property: transform, -webkit-transform;
 }
 
 .products .card-img-button {
@@ -853,6 +857,11 @@ body {
   position: relative;
 }
 
+.filter__catalog > div:first-child {
+  height: 17px;
+  width: 90px;
+}
+
 .filter__catalog .filter_left {
   text-transform: uppercase;
   font-weight: 600;
@@ -874,7 +883,7 @@ body {
 }
 
 .filter__catalog .filter_navigation[open] {
-  width: 360px;
+  width: 220px;
   min-height: 331px;
   background: #FFFFFF;
   -webkit-box-shadow: 6px 4px 35px rgba(0, 0, 0, 0.21);
@@ -936,12 +945,6 @@ body {
   padding-right: 11px;
 }
 
-.filter__catalog .param_filter {
-  position: absolute;
-  top: 0;
-  right: 16px;
-}
-
 .filter__catalog .filter_right {
   font-size: 12px;
   line-height: 14px;
@@ -985,7 +988,7 @@ body {
 .filter__catalog .check_size[open] {
   width: 89px;
   top: -7px;
-  right: 5px;
+  right: 49px;
 }
 
 .filter__catalog .check_price[open] {
@@ -1089,6 +1092,7 @@ body {
   .filter__catalog .filter_navigation[open] {
     font-size: 14px;
     line-height: 17px;
+    width: 360px;
   }
   .filter__catalog .filter_right {
     font-size: 14px;
