@@ -429,9 +429,6 @@ body {
   border: 1px solid #F16D7F;
   margin-left: auto;
   margin-right: auto;
-}
-
-.products__all-link a {
   text-decoration: none;
   font-size: 16px;
   line-height: 19px;
@@ -909,6 +906,7 @@ body {
 .filter__catalog .filter_navigation[open] .filter_category {
   color: #EF5B70;
   border-left: 5px solid #EF5B70;
+  border-bottom: 1px solid #bdb1b1;
   padding-left: 11px;
   line-height: 37px;
 }
@@ -919,6 +917,10 @@ body {
 
 .filter__catalog .filter_navigation[open] .filter_list {
   margin: 24px 33px;
+}
+
+.filter__catalog .filter_navigation[open] .filter_list summary + a {
+  padding-top: 24px;
 }
 
 .filter__catalog .filter_navigation[open] .filter_list a:hover {
@@ -933,12 +935,6 @@ body {
 
 .filter__catalog .filter_navigation a + a {
   margin-top: 11px;
-}
-
-.filter__catalog .filter_navigation hr {
-  max-width: 327px;
-  opacity: 0.2;
-  margin-top: 0px;
 }
 
 .filter__catalog .filter_left-cont {

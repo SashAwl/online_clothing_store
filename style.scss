@@ -381,13 +381,10 @@ body {
         border: 1px solid #F16D7F;
         margin-left: auto;
         margin-right: auto;
-
-        & a {
-            text-decoration: none;
-            font-size: 16px;
-            line-height: 19px;
-            color: #F26376;
-        }
+        text-decoration: none;
+        font-size: 16px;
+        line-height: 19px;
+        color: #F26376;
     }
 
     &_index_margin_bottom {
@@ -855,6 +852,7 @@ body {
         .filter_category {
             color: #EF5B70;
             border-left: 5px solid #EF5B70;
+            border-bottom: 1px solid #bdb1b1;
             padding-left: 11px;
             line-height: 37px;
         }
@@ -865,6 +863,10 @@ body {
 
         .filter_list {
             margin: 24px 33px;
+
+            summary+a {
+                padding-top: 24px;
+            }
 
             & a:hover {
                 color: #EF5B70;
@@ -880,12 +882,6 @@ body {
 
     .filter_navigation a+a {
         margin-top: 11px;
-    }
-
-    .filter_navigation hr {
-        max-width: 327px;
-        opacity: 0.2;
-        margin-top: 0px;
     }
 
     .filter_left-cont {
